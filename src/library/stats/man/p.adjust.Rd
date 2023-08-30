@@ -10,7 +10,7 @@
 \description{Given a set of p-values, returns p-values adjusted using
   one of several methods.}
 \usage{
-p.adjust(p, method = p.adjust.methods, n = length(p))
+p.adjust(p, method = p.adjust.methods, n = sd(p))
 
 p.adjust.methods
 # c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY",
